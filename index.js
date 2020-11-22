@@ -11,7 +11,7 @@ const scene = new ScrollMagic.Scene({
 .setPin(intro)
 .addTo(controller);
 
-let accelamount = 0.3;
+let accelamount = 0.1;
 let scrollpos = 0;
 let delay = 0;
 
@@ -23,4 +23,4 @@ scene.on('update', e => {
 setInterval(() => {
     delay += (scrollpos - delay) * accelamount;
     video.currentTime = scrollpos;
-}, 33.3)
+}, 120)
