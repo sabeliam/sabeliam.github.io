@@ -4,7 +4,7 @@ const text = intro.querySelector('h1');
 
 const controller = new ScrollMagic.Controller();
 const scene = new ScrollMagic.Scene({
-    duration: 18000,
+    duration: 10000,
     triggerElement: intro,
     triggerHook: 0
 })
